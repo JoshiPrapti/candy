@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8d1414af;
+}
+
+header {
+    background-color: #d2691e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.product-description h2 {
+    color: #d2691e;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.product-description p {
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.product-description img {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
+}
+.product-description img:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.quick-contact-form input[type="text"],
+.quick-contact-form input[type="email"],
+.quick-contact-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.quick-contact-form textarea {
+    height: 100px;
+}
+
+.quick-contact-form button {
+    background-color: #d2691e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quick-contact-form button:hover {
+    background-color: #b2591a;
+}
+
+@media screen and (max-width: 600px) {
+    .quick-contact-form input[type="text"],
+    .quick-contact-form input[type="email"],
+    .quick-contact-form textarea {
+        width: 100%;}
+    }
